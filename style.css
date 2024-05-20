@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    line-height: 30px;
+  }
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img{
+  filter: brightness(60%);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.m-7 {
+  display: flex;
+  justify-content: center;
+}
